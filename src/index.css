@@ -1,13 +1,102 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.card-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    min-height: 150px;
+}
+
+.col-12.col-sm-6.col-xl-4 {
+    margin-bottom: 20px;
+}
+
+.card {
+    height: 100%;
+}
+
+.btn {
+    font-weight: 700;
+}
+
+.card-title {
+    text-transform: uppercase;
+    margin-bottom: 36px;
+    font-weight: bold;
+}
+
+.card-tag {
+    margin: 0 8px 26px;
+}
+
+.bg-normal {
+    background-color: #f3969a;
+}
+.bg-fighting {
+    background-color: #6cc3d580;
+}
+.bg-flying {
+    background-color: #87c7d480;
+}
+.bg-poison {
+    background-color: #cf96f3;
+}
+.bg-ground {
+    background-color: #634a2c;
+}
+.bg-rock {
+    background-color: #524f4a;
+}
+.bg-bug {
+    background-color: #c7c389;
+}
+.bg-ghost {
+    background-color: #56cc9d80;
+}
+.bg-steel {
+    background-color: #61a0ce;
+}
+.bg-fire {
+    background-color: #ff7851;
+}
+.bg-water {
+    background-color: #6cc3d5;
+}
+.bg-grass {
+    background-color: #45a4e6;
+}
+.bg-electric {
+    background-color: #ffce67;
+}
+.bg-psychic {
+    background-color: #ffb9a5;
+}
+.bg-ice {
+    background-color: #7bbeec;
+}
+.bg-dragon {
+    background-color: #d04e29;
+}
+.bg-dark {
+    background-color: #343a40;
+}
+.bg-fairy {
+    background-color: #e04a20;
+}
+.bg-unknown {
+    background-color: #d48488;
+}
+.bg-shadow {
+    background-color: #888;
 }
