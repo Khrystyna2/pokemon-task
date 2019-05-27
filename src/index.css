@@ -140,3 +140,33 @@ code {
 .bg-shadow {
     background-color: #888;
 }
+
+@media only screen and (max-width: 1200px) {
+    .card-detail .close {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 767.8px) {
+    .card-detail {
+        position: fixed;
+        max-height: 84vh;
+        overflow: auto;
+        width: 540px;
+        min-width: 290px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+    }
+}
+
+@media only screen and (max-width: 575.8px) {
+    .card-detail {
+        width: 90%;
+        min-width: 290px;
+    }
+}
