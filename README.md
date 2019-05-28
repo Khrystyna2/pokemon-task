@@ -1,8 +1,8 @@
 ### Installation
 
 ```sh
-$ git clone https://github.com/Volocuga/ChatRealTime.github.io/tree/20180927-Oleh-forOurTeam
-$ cd ChatRealTime
+$ git clone https://github.com/Khrystyna2/pokemon-task.git
+$ cd pokemon-task
 $ npm install
 $ sails lift
 
