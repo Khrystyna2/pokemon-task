@@ -11,7 +11,7 @@ const PokemonDetail = ({ pokemon: { name, imageSrc, types, attack, defense, heig
             </div>
             <h4 className="card-title text-center my-3">{name}</h4>
             <ul className="list-group list-group-flush">
-                <li className="list-group-item d-flex justify-content-between">Type <span className="d-flex flex-column">{types && types.map(({ type: { name } }) => <span key={name}>{name}</span>)}</span></li>
+                <li className="list-group-item d-flex justify-content-between">Type <span className="d-flex flex-column">{types && types.map(name => <span key={name}>{name}</span>)}</span></li>
                 <li className="list-group-item d-flex justify-content-between">Attack<span>{attack}</span></li>
                 <li className="list-group-item d-flex justify-content-between">Defense<span>{defense}</span></li>
                 <li className="list-group-item d-flex justify-content-between">HP<span>{hp}</span></li>

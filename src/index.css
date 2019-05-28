@@ -66,6 +66,18 @@ code {
     margin: 2px 0;
 }
 
+.input-style {
+    width: 440px;
+    height: 36px;
+    padding: 0 18px;
+    border: 2px solid #ffce67;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
 .btn {
     font-weight: 700;
 }
