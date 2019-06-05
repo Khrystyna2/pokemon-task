@@ -1,184 +1,187 @@
 body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-        "Helvetica Neue", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
 }
 
 code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
 
 .card-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #fff;
-    min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  min-height: 150px;
 }
 
 .col-12.col-sm-6.col-xl-4 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .card {
-    height: 100%;
+  height: 100%;
 }
 
 .card-detail {
-    height: auto;
-    position: sticky;
-    /* width: 270px; */
-    top: 50%;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
+  height: auto;
+  position: sticky;
+  /* width: 270px; */
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
 }
 
 .card-detail .close {
-    position: absolute;
-    top: 10px;
-    right: 12px;
-    opacity: 0;
-    transition: opacity 0.5s ease;
-    -webkit-transition: opacity 0.5s ease;
-    -moz-transition: opacity 0.5s ease;
-    -ms-transition: opacity 0.5s ease;
-    -o-transition: opacity 0.5s ease;
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  -webkit-transition: opacity 0.5s ease;
+  -moz-transition: opacity 0.5s ease;
+  -ms-transition: opacity 0.5s ease;
+  -o-transition: opacity 0.5s ease;
 }
 .card-detail:hover .close {
-    opacity: 1;
+  opacity: 1;
 }
 
 .list-group-item {
-    padding: 0 12px;
-    min-height: 40px;
-    align-items: center;
+  padding: 0 12px;
+  min-height: 40px;
+  align-items: center;
 }
 .list-group-item span {
-    display: inline-block;
-    min-width: 60px;
-    width: 60px;
-    text-align: center;
-    margin: 2px 0;
+  display: inline-block;
+  min-width: 60px;
+  width: 60px;
+  text-align: center;
+  margin: 2px 0;
 }
 
 .input-style {
-    width: 440px;
-    height: 36px;
-    padding: 0 18px;
-    border: 2px solid #ffce67;
-    border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    -ms-border-radius: 6px;
-    -o-border-radius: 6px;
+  width: 440px;
+  height: 36px;
+  padding: 0 18px;
+  border: 2px solid #ffce67;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
 }
 
 .btn {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .card-title {
-    text-transform: uppercase;
-    margin-bottom: 36px;
-    font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 36px;
+  font-weight: bold;
 }
 
 .card-tag {
-    margin: 0 8px 26px;
+  margin: 0 8px 26px;
 }
 
 .bg-normal {
-    background-color: #f3969a;
+  background-color: #f3969a;
 }
 .bg-fighting {
-    background-color: #6cc3d580;
+  background-color: #6cc3d580;
 }
 .bg-flying {
-    background-color: #87c7d480;
+  background-color: #87c7d480;
 }
 .bg-poison {
-    background-color: #cf96f3;
+  background-color: #cf96f3;
 }
 .bg-ground {
-    background-color: #634a2c;
+  background-color: #634a2c;
 }
 .bg-rock {
-    background-color: #524f4a;
+  background-color: #524f4a;
 }
 .bg-bug {
-    background-color: #c7c389;
+  background-color: #c7c389;
 }
 .bg-ghost {
-    background-color: #56cc9d80;
+  background-color: #56cc9d80;
 }
 .bg-steel {
-    background-color: #61a0ce;
+  background-color: #61a0ce;
 }
 .bg-fire {
-    background-color: #ff7851;
+  background-color: #ff7851;
 }
 .bg-water {
-    background-color: #6cc3d5;
+  background-color: #6cc3d5;
 }
 .bg-grass {
-    background-color: #45a4e6;
+  background-color: #45a4e6;
 }
 .bg-electric {
-    background-color: #ffce67;
+  background-color: #ffce67;
 }
 .bg-psychic {
-    background-color: #ffb9a5;
+  background-color: #ffb9a5;
 }
 .bg-ice {
-    background-color: #7bbeec;
+  background-color: #7bbeec;
 }
 .bg-dragon {
-    background-color: #d04e29;
+  background-color: #d04e29;
 }
 .bg-dark {
-    background-color: #343a40;
+  background-color: #343a40;
 }
 .bg-fairy {
-    background-color: #e04a20;
+  background-color: #e04a20;
 }
 .bg-unknown {
-    background-color: #d48488;
+  background-color: #d48488;
 }
 .bg-shadow {
-    background-color: #888;
+  background-color: #888;
 }
 
 @media only screen and (max-width: 1200px) {
-    .card-detail .close {
-        opacity: 1;
-    }
+  .card-detail .close {
+    opacity: 1;
+  }
 }
 
 @media only screen and (max-width: 767.8px) {
-    .card-detail {
-        position: fixed;
-        max-height: 84vh;
-        overflow: auto;
-        width: 540px;
-        min-width: 290px;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -webkit-transform: translate(-50%, -50%);
-        -moz-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        -o-transform: translate(-50%, -50%);
-    }
+  .card-detail {
+    position: fixed;
+    max-height: 84vh;
+    overflow: auto;
+    width: 540px;
+    min-width: 290px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+  }
 }
 
 @media only screen and (max-width: 575.8px) {
-    .card-detail {
-        width: 90%;
-        min-width: 290px;
-    }
+  .card-detail {
+    width: 90%;
+    min-width: 290px;
+  }
 }
